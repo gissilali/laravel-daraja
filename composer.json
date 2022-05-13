@@ -18,13 +18,9 @@
   ],
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^8.0",
-    "guzzlehttp/guzzle": "^7.0",
-    "monolog/monolog": "^2.1.1"
-  },
-  "require-dev": {
-    "orchestra/testbench": "^6.0",
-    "phpunit/phpunit": "^9.0"
+    "guzzlehttp/guzzle": "^7.4",
+    "illuminate/support": "^9.12",
+    "orchestra/testbench": "^7.5"
   },
   "autoload": {
     "psr-4": {
@@ -56,5 +52,9 @@
     "preferred-install": "dist",
     "sort-packages": true,
     "optimize-autoloader": true
+  },
+  "require-dev": {
+    "monolog/monolog": "^2.6.0",
+    "phpunit/phpunit": "^9.2"
   }
 }
