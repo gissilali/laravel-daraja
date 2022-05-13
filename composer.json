@@ -1,6 +1,6 @@
 {
-  "name": "starnerz/laravel-daraja",
-  "description": "A laravel package for the Safaricom Daraja APIs.",
+  "name": "silali/laravel-daraja",
+  "description": "A laravel package for the Safaricom Daraja APIs. Updating stanerz package to php 8.0",
   "license": "MIT",
   "keywords": [
     "laravel",
@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "php": "^7.3",
+    "php": "^8.0",
     "illuminate/support": "^8.0",
     "guzzlehttp/guzzle": "^7.0",
     "monolog/monolog": "^2.1.1"
